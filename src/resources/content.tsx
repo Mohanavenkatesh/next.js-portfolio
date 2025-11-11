@@ -2,14 +2,14 @@ import { About, Blog, Gallery, Home, Newsletter, Person, Social, Work } from "@/
 import { Line, Logo, Row, Text } from "@once-ui-system/core";
 
 const person: Person = {
-  firstName: "Mohan",
-  lastName: "A",
-  name: `Mohan A`,
-  role: "Developer",
+  firstName: "Selene",
+  lastName: "Yu",
+  name: `Selene Yu`,
+  role: "Design Engineer",
   avatar: "/images/avatar.jpg",
   email: "example@gmail.com",
-  location: "India/Chennai", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
-  languages: ["English", "Tamil"], // optional: Leave the array empty if you don't want to display languages
+  location: "Asia/Jakarta", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
+  languages: ["English", "Bahasa"], // optional: Leave the array empty if you don't want to display languages
 };
 
 const newsletter: Newsletter = {
@@ -20,16 +20,16 @@ const newsletter: Newsletter = {
 
 const social: Social = [
   // Links are automatically displayed.
-  // Import new icons in /techienutpam/icons.ts
+  // Import new icons in /once-ui/icons.ts
   {
     name: "GitHub",
     icon: "github",
-    link: "https://github.com/techienutpam-system",
+    link: "https://github.com/once-ui-system",
   },
   {
     name: "LinkedIn",
     icon: "linkedin",
-    link: "https://www.linkedin.com/company/techienutpam/",
+    link: "https://www.linkedin.com/company/once-ui/",
   },
   {
     name: "Threads",
@@ -61,11 +61,11 @@ const home: Home = {
         </Text>
       </Row>
     ),
-    href: "/work/building-techienutpam-a-customizable-design-system",
+    href: "/work/building-once-ui-a-customizable-design-system",
   },
   subline: (
     <>
-      I'm Mohan, a Developer at{" "}
+      I'm Selene, a design engineer at{" "}
       <Logo
         dark
         icon="/trademarks/wordmark-dark.svg"
@@ -98,7 +98,9 @@ const about: About = {
     title: "Introduction",
     description: (
       <>
-        Mohan is a Chennai-based full stack developer with a strong focus on building scalable web applications and bridging the gap between engineering and design. Specializing in React, Next.js, and modern UI systems, he enjoys tackling complex backend logic and crafting seamless user experiences through efficient, maintainable code.
+        Selene is a Jakarta-based design engineer with a passion for transforming complex challenges
+        into simple, elegant design solutions. Her work spans digital interfaces, interactive
+        experiences, and the convergence of design and technology.
       </>
     ),
   },
@@ -153,8 +155,8 @@ const about: About = {
     title: "Studies",
     institutions: [
       {
-        name: "University of Madras",
-        description: <>Studied Bsc Computer Science.</>,
+        name: "University of Jakarta",
+        description: <>Studied software engineering.</>,
       },
       {
         name: "Build the Future",

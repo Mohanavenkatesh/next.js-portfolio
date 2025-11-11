@@ -190,13 +190,13 @@ const schema: SchemaConfig = {
   type: "Organization",
   name: "Once UI",
   description: home.description,
-  email: "lorant@techienutpam.com",
+  email: "lorant@once-ui.com",
 };
 
 // social links
 const sameAs: SameAsConfig = {
   threads: "https://www.threads.com/@once_ui",
-  linkedin: "https://www.linkedin.com/company/techienutpam/",
+  linkedin: "https://www.linkedin.com/company/once-ui/",
   discord: "https://discord.com/invite/5EyAQ4eNdS",
 };
 

@@ -20,24 +20,8 @@ const TimeDisplay: React.FC<TimeDisplayProps> = ({ timeZone, locale = "en-GB" })
   useEffect(() => {
     const updateTime = () => {
       const now = new Date();
-
-      // If timeZone provided is "India/Chennai" or similar, force "Asia/Kolkata" (official IANA tz for Chennai)
-      let effectiveTimeZone = timeZone;
-      const chennaiAliases = [
-        "Asia/Chennai",
-        "IND/Chennai",
-        "Indian/Chennai",
-        "India/Chennai",
-        "Chennai"
-      ];
-      if (
-        chennaiAliases.map(x => x.toLowerCase()).includes(timeZone?.toLowerCase?.())
-      ) {
-        effectiveTimeZone = "Asia/Kolkata";
-      }
-
       const options: Intl.DateTimeFormatOptions = {
-        timeZone: effectiveTimeZone,
+        timeZone,
         hour: "2-digit",
         minute: "2-digit",
         second: "2-digit",
