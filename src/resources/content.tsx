@@ -5,7 +5,7 @@ const person: Person = {
   firstName: "Mohan",
   lastName: "A",
   name: `Mohan `,
-  role: "Design Engineer",
+  role: "Developer Engineer",
   avatar: "/images/avatar.jpg",
   email: "example@gmail.com",
   location: "Asia/Jakarta", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
@@ -98,9 +98,10 @@ const about: About = {
     title: "Introduction",
     description: (
       <>
-        Mohan is a Jakarta-based design engineer with a passion for transforming complex challenges
-        into simple, elegant design solutions. Her work spans digital interfaces, interactive
-        experiences, and the convergence of design and technology.
+        Mohan is a  developer passionate about building robust, scalable web applications. 
+        He specializes in full-stack development, working across modern frameworks and technologies to deliver 
+        high-quality digital products. Mohan thrives on solving programming challenges, optimizing performance, 
+        and creating seamless user experiences through clean, maintainable code.
       </>
     ),
   },
@@ -111,7 +112,7 @@ const about: About = {
       {
         company: "FLY",
         timeframe: "2022 - Present",
-        role: "Senior Design Engineer",
+        role: "Devlopers",
         achievements: [
           <>
             Redesigned the UI/UX for the FLY platform, resulting in a 20% increase in user
