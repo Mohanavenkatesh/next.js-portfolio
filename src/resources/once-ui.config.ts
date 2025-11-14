@@ -188,7 +188,7 @@ const mailchimp: MailchimpConfig = {
 const schema: SchemaConfig = {
   logo: "",
   type: "Organization",
-  name: "Once UI",
+  name: "Techi",
   description: home.description,
   email: "lorant@once-ui.com",
 };
