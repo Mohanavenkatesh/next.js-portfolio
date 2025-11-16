@@ -7,15 +7,15 @@ const person: Person = {
   name: `Mohan`,
   role: "Developer",
   avatar: "/images/avatar.jpg",
-  email: "example@gmail.com",
+  email: "mohanavenkatesh.work@gmail.com",
   location: "Asia/Kolkata", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
   languages: ["English","Tamil"], // optional: Leave the array empty if you don't want to display languages
 };
 
 const newsletter: Newsletter = {
   display: true,
-  title: <>Subscribe to {person.firstName}'s Newsletter</>,
-  description: <>My weekly newsletter about creativity and engineering</>,
+  title: <>Contact Us</>,
+  description: <>Feel free to reach out for any inquiries, collaborations, or just to say hello.</>,
 };
 
 const social: Social = [
@@ -54,7 +54,7 @@ const home: Home = {
     display: true,
     title: (
       <Row gap="12" vertical="center">
-        <strong className="ml-4">Once UI</strong>{" "}
+        <strong className="ml-4">TechieNuttppam</strong>{" "}
         <Line background="brand-alpha-strong" vert height="20" />
         <Text marginRight="4" onBackground="brand-medium">
           Featured work
@@ -65,12 +65,12 @@ const home: Home = {
   },
   subline: (
     <>
-      I'm Mohan, a Developer at{" "}
-      <Logo
+      I'm Mohan, a Developer at TechieNuttppam
+      {/* <Logo
         dark
         icon="/trademarks/wordmark-dark.svg"
         style={{ display: "inline-flex", top: "0.25em", marginLeft: "-0.25em" }}
-      />
+      /> */}
       , where I craft intuitive
       <br /> user experiences. After hours, I build my own projects.
     </>
@@ -110,45 +110,22 @@ const about: About = {
     title: "Work Experience",
     experiences: [
       {
-        company: "FLY",
-        timeframe: "2022 - Present",
+        company: "TechieNuttppam",
+        timeframe: "2025 - Present",
         role: "Devlopers",
         achievements: [
-          <>
-            Redesigned the UI/UX for the FLY platform, resulting in a 20% increase in user
-            engagement and 30% faster load times.
-          </>,
-          <>
-            Spearheaded the integration of AI tools into design workflows, enabling designers to
-            iterate 50% faster.
-          </>,
+          "Working as a Frontend Developer, focused on building intuitive, high-performance user interfaces using modern web technologies.",
         ],
         images: [
           // optional: leave the array empty if you don't want to display images
           {
             src: "/images/projects/project-01/cover-01.jpg",
-            alt: "Once UI Project",
+            alt: "TechieNuttppam Project",
             width: 16,
             height: 9,
           },
         ],
-      },
-      {
-        company: "Creativ3",
-        timeframe: "2018 - 2022",
-        role: "Lead Designer",
-        achievements: [
-          <>
-            Developed a design system that unified the brand across multiple platforms, improving
-            design consistency by 40%.
-          </>,
-          <>
-            Led a cross-functional team to launch a new product line, contributing to a 15% increase
-            in overall company revenue.
-          </>,
-        ],
-        images: [],
-      },
+      }
     ],
   },
   studies: {
@@ -156,12 +133,12 @@ const about: About = {
     title: "Studies",
     institutions: [
       {
-        name: "University of Jakarta",
-        description: <>Studied software engineering.</>,
+        name: "University of Madras",
+        description: <>Studied  Bachelors of Computer Science.</>,
       },
       {
-        name: "Build the Future",
-        description: <>Studied online marketing and personal branding.</>,
+        name: "Full Stack Development",
+        description: <>Studied Mern Stack Development.</>,
       },
     ],
   },
@@ -170,36 +147,11 @@ const about: About = {
     title: "Technical skills",
     skills: [
       {
-        title: "Figma",
+        title: "JavaScript & TypeScript",
         description: (
-          <>Able to prototype in Figma with Once UI with unnatural speed.</>
-        ),
-        tags: [
-          {
-            name: "Figma",
-            icon: "figma",
-          },
-        ],
-        // optional: leave the array empty if you don't want to display images
-        images: [
-          {
-            src: "/images/projects/project-01/cover-02.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
-          {
-            src: "/images/projects/project-01/cover-03.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
-        ],
-      },
-      {
-        title: "Next.js",
-        description: (
-          <>Building next gen apps with Next.js + Once UI + Supabase.</>
+          <>
+            Proficient in modern JavaScript (ES6+) and TypeScript, building maintainable, efficient, and scalable web applications. Familiar with async/await patterns, modular code, and clean architecture.
+          </>
         ),
         tags: [
           {
@@ -207,24 +159,121 @@ const about: About = {
             icon: "javascript",
           },
           {
-            name: "Next.js",
-            icon: "nextjs",
-          },
-          {
-            name: "Supabase",
-            icon: "supabase",
+            name: "TypeScript",
+            icon: "typescript",
           },
         ],
-        // optional: leave the array empty if you don't want to display images
         images: [
           {
-            src: "/images/projects/project-01/cover-04.jpg",
-            alt: "Project image",
+            src: "/images/projects/project-01/cover-02.jpg",
+            alt: "JavaScript code example",
             width: 16,
             height: 9,
           },
         ],
-      },  
+      },
+      {
+        title: "React & Next.js",
+        description: (
+          <>
+            Experienced in developing robust user interfaces with React and Next.js. Knowledgeable in SSR, ISR, hooks, context, and API routes for full-stack app solutions.
+          </>
+        ),
+        tags: [
+          {
+            name: "React",
+            icon: "react",
+          },
+          {
+            name: "Next.js",
+            icon: "nextjs",
+          },
+        ],
+        images: [
+          {
+            src: "/images/projects/project-01/cover-02.jpg",
+            alt: "React/Next.js code example",
+            width: 16,
+            height: 9,
+          },
+        ],
+      },
+      {
+        title: "Node.js & Express",
+        description: (
+          <>
+            Skilled in server-side development using Node.js and Express. Familiar with RESTful API design, middleware, authentication, and integrating with databases and external services.
+          </>
+        ),
+        tags: [
+          {
+            name: "Node.js",
+            icon: "nodejs",
+          },
+          {
+            name: "Express",
+            icon: "express",
+          },
+        ],
+        images: [],
+      },
+      {
+        title: "MongoDB & SQL",
+        description: (
+          <>
+            Experienced with both NoSQL (MongoDB, Mongoose) and relational (PostgreSQL, MySQL) databases, including data modeling, queries, and performance tuning.
+          </>
+        ),
+        tags: [
+          {
+            name: "MongoDB",
+            icon: "mongodb",
+          },
+          {
+            name: "SQL",
+            icon: "sql",
+          },
+        ],
+        images: [],
+      },
+      {
+        title: "Version Control & DevOps",
+        description: (
+          <>
+            Proficient with Git/GitHub for source control, familiar with CI/CD pipelines (GitHub Actions, Vercel), and containerization using Docker.
+          </>
+        ),
+        tags: [
+          {
+            name: "Git",
+            icon: "git",
+          },
+          {
+            name: "Docker",
+            icon: "docker",
+          },
+        ],
+        images: [],
+      },
+      {
+        title: "Testing & Quality Assurance",
+        description: (
+          <>
+            Knowledgeable in testing strategies using Jest, React Testing Library, and Cypress to ensure code quality and reliability.
+          </>
+        ),
+        tags: [
+          {
+            name: "Jest",
+            icon: "jest",
+          },
+          {
+            name: "Cypress",
+            icon: "cypress",
+          },
+        ],
+        images: [],
+      },
     ],
   },
 };
