@@ -8,7 +8,7 @@ const person: Person = {
   role: "Developer",
   avatar: "/images/avatar.jpg",
   email: "mohanavenkatesh.work@gmail.com",
-  location: "Asia/Kolkata", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
+  location: "Asia/Kolkata", // Chennai is in the 'Asia/Kolkata' IANA time zone
   languages: ["English","Tamil"], // optional: Leave the array empty if you don't want to display languages
 };
 
