@@ -14,7 +14,7 @@ const page = () => {
           <p>
             Web Developer
           </p>
-          <h1 className="my-8 text-2xl font-semibold">My Skills</h1>
+          <h1 className="my-8 text-2xl font-semibold">Skills</h1>
         </div>
         <ul className="list-disc ml-6 mb-4">
           <li>React.js</li>

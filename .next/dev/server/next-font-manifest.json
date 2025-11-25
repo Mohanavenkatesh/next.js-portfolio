@@ -1,5 +1,8 @@
 {
   "app": {
+    "[project]/app/contact/page": [
+      "static/media/5ee884228e72c58d-s.p.0ed6c6c7.woff2"
+    ],
     "[project]/app/page": [
       "static/media/5ee884228e72c58d-s.p.0ed6c6c7.woff2"
     ],
