@@ -24,6 +24,8 @@ const page = () => {
           <li>Tailwind CSS & Bootstrap</li>
           <li>Responsive Web Design</li>
           <li>Version Control (Git &amp; GitHub)</li>
+          <li>Backend Development (Node.js, Express.js)</li>
+
         </ul>
         <h2 className="text-xl font-semibold mb-2">Get in Touch</h2>
         <p className="mb-3">
